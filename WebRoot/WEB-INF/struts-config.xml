@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans />
+  <global-exceptions />
+  <global-forwards>
+      <forward contextRelative="true" name="goSuHint" path="/hint.jsp"/>
+      <forward contextRelative="true" name="goErHint" path="/hint_error.jsp"/>
+  </global-forwards>
+  <action-mappings>
+    <!--parameter表示的含义是url中的method=？-->
+    <action parameter="method" path="/base" scope="request" type="efsframe.cn.action.BaseAction">
+    <forward contextRelative="true" name="success" path="/default.jsp"/>
+    </action>
+
+    <action parameter="method" path="/identify" scope="request" type="efsframe.cn.action.IdentifyAction">
+    <forward contextRelative="true" name="success" path="/login.jsp"/>
+    <forward contextRelative="true" name="failed" path="/hint_error.jsp"/>
+    </action>
+    
+    <!-- 班级管理 -->
+    <action parameter="method" path="/classes" scope="request" type="efsframe.cn.action.ClassesAction">
+	    <forward contextRelative="true" name="success" path="/login.jsp"/>
+	    <forward contextRelative="true" name="failed" path="/hint_error.jsp"/>
+    </action>
+    
+    <action parameter="method" path="/product" scope="request" type="efsframe.cn.action.ProductAction">
+      <forward contextRelative="true" name="success" path="/login.jsp"/>
+      <forward contextRelative="true" name="failed" path="/hint_error.jsp"/>
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+  <plug-in className="efsframe.cn.base.StartPlug" />
+</struts-config>
+

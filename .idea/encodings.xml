@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/action/AjaxAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/action/AjaxDoAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/action/BaseAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/action/CharacterEncodingFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/action/IdentifyAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/baseManage/IdentifyBO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/baseManage/UserBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/cache/DicCache.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/db/DBConnection.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/db/DBConnectionManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/db/DataStorage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/db/SQLAnalyse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/declare/Common.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/declare/Field.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/declare/Table.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/func/Convertion.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/func/Crypt.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/func/DateTimeUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/func/General.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/func/PageCommon.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/efsframe/cn/person/PersonBO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../../比特币-java/cryptocurrency-master/bitcoin-common" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

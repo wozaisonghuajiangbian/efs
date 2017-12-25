@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <row DIC_CODE="001" DIC_TEXT="电视" DIC_SPELL="ds" DIC_ASPELL="dianshi"/>
+  <row DIC_CODE="002" DIC_TEXT="冰箱" DIC_SPELL="bx" DIC_ASPELL="bingxiang"/>
+  <row DIC_CODE="003" DIC_TEXT="热水器" DIC_SPELL="rsq" DIC_ASPELL="reshuiqi"/>
+</data>
